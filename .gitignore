@@ -7,3 +7,4 @@
 /data_embed/*.gz
 installer/firmware
 installer/*.bin
+**/__pycache__/
