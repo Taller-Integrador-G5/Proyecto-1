@@ -1,0 +1,74 @@
+{
+    "callsign": "Ti0TEC5-10",
+    "wifi": {
+        "autoAP": {
+            "password": "04121999",
+            "powerOff": 10
+        },
+        "AP": ["VegaCerdasCasa"]
+    },
+    "beacon": {
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "comment": "",
+        "interval": 15,
+        "overlay": "L",
+        "symbol": "a",
+        "path": "WIDE1-1",
+        "sendViaAPRSIS": false,
+        "sendViaRF": true
+    },
+    "digi": {
+        "mode": 0
+    },
+    "tnc": {
+        "enableServer": false,
+        "enableSerial": false,
+        "acceptOwn": false
+    },
+    "aprs_is": {
+        "active": true,
+        "passcode": "22177",
+        "server": "rotate.aprs2.net",
+        "port": 14580,
+        "filter": "m/10",
+        "toRF": false
+    },
+    "lora": {
+        "txFreq": 433775000,
+        "rxFreq": 433775000,
+        "spreadingFactor": 12,
+        "signalBandwidth": 125000,
+        "codingRate4": 5,
+        "power": 20,
+        "txActive": false,
+        "rxActive": true
+    },
+    "display": {
+        "alwaysOn": true,
+        "timeout": 4,
+        "turn180": false
+    },
+    "syslog": {
+        "active": false,
+        "server": "192.168.0.100",
+        "port": 514
+    },
+    "bme": {
+		"active": false,
+		"heightCorrection": 0,
+		"temperatureCorrection": 0.0
+	},
+    "ota": {
+        "username": "",
+        "password": ""
+    },
+    "other": {
+        "rememberStationTime": 30,
+        "sendBatteryVoltage": false,
+        "externalVoltageMeasurement": false,
+        "externalVoltagePin": 34,
+        "lowPowerMode": false,
+        "lowVoltageCutOff": 0
+    }
+}
